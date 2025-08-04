@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!--Enzabezado-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <meta name="description" content="Mi página con la informacion personal">
+    <!--Hoja de estilo-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Banner para identificar el encabezado principal-->
+    <header role="banner">
+        <h1>Mi Página Personal</h1>
+        <p>Bienvenido a mi espacio </p>
+    </header>
+    <!--Barra de navegacion-->
+    <nav role="navigation" aria-label="Navegación principal">
+        <ul>
+            <li><a href="#introduccion" accesskey="i">Introduccion</a></li>
+            <li><a href="#sobre-mi" accesskey="s">Sobre mí</a></li>
+            <li><a href="#habilidades" accesskey="h">Habilidades</a></li>
+            <li><a href="#datos-curiosos" accesskey="d">Datos Curiosos</a></li>
+            <li><a href="#contacto" accesskey="c">Contacto</a></li>
+            <!--Enlaces internos con id para la navegacion y facilidad dentro de la pagina-->
+        </ul>
+    </nav>
+    <!--Contenido principal-->
+    <main role="main">
+        <!--Parte de introduccion y enlace interno-->
+        <section id="introduccion">
+            <h2>Introduccion</h2>
+            <article>
+                <p> El objetivo de esta pagina es motrar y dar a conocer a Nathalia Osorio sus gustos, habilidades
+                    y demas; es publico es los profesores o integrantes de la universidad Manuela Beltran.</p>
+            </article>
+        </section>
+        <!--Parte sobre mi-->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article>
+                <img src="cara.jpeg" alt="Foto cara" width="200">
+                <p>Hola, mi nombre es Nathalia Osorio.</p>
+                <p> Soy estudiante de la Universidad Manuela Beltran en la carrera de Ingenieria de software;
+                    Aparte de estudiar la Ingenieria estudio Produccion de la Danza y estoy en un club jugando 
+                    voleibol de manera casi profesional.</p>
+            </article>
+        </section>
+         <!--Parte de habilidades-->   
+        <section id="habilidades">
+            <h2>Habilidades y Conocimientos</h2>
+            <article>
+                <h3>Mis Habilidades</h3>
+                <!--h3 para la subseccion-->
+                <li>
+                    <img src="fotovolei.jpeg" alt="Foto volei" width="200">
+                <li>Tengo habilidades en diseñar coreografias de musica contemporanea y tradicionales (Folclor);
+                    Tambien en la creacion de tablas de bases de datos basicas y programaciones sencillas, 
+                    ademas de ser una posicion llamada libero en voleibol que cumple con una funcion importante 
+                    aa la hora de realizar un punto.</li>
+            </article>
+
+        </section>
+        <!--Parte de datos curiosos-->
+           <li>
+            <a href="#datos-curiosos" accesskey="c">Datos Curiosos</a>
+            </li>
+            <h2>Datos Curiosos</h2>
+            <p>Informacion Complementaria:</p>
+            <ul>
+                <li>Trabajo siendo tutora de niños entre las edades de 11 hasta los 19 que aun se encuentran cursando
+                    el colegio, trabajo en una empresa de seguridad electronica instalando camaras y productos de seguridad
+                    por ultimo me gusta las obras literarias de J.K. Rowling.</li>
+            </ul>
+        </aside>
+        <!--Parte del contacto-->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes encontrarme/contactarme a través de:</p>
+            <ul>
+                <li><a href="mailto:eestefa2711@gmail.com" aria-label="Enviar correo electrónico">Email</a></li>
+            </ul>
+        </section>
+    </main>
+    <!--Pie de pagina-->
+    <footer role="contentinfo">
+        <p>&copy; <span id="year"></span> Nathalia Osorio. Todos los derechos reservados.</p>
+        <p><a href="#top" aria-label="Volver al inicio de la página">Volver Arriba</a></p>
+        <!--Enlace para volver al inicio de la pagina-->
+    </footer>
+</body>
+</html>
